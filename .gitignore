@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Generated downloads, audio conversions, and vector database
+downloads/
+vector_db/
+*_converted.wav
+*.wav_chunk_*.wav
+*_sv_*.wav
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
